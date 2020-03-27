@@ -2,7 +2,7 @@ const MercadoPago = require('mercadopago');
 
 const getFullUrl = (req) => {
   const url = req.protocol + '://' + req.get('host');
-  console.log(url)
+  console.log("foi chamado")
   return url;
 }
 
